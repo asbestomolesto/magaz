@@ -1,0 +1,22 @@
+@  2, 25  SAY "HSC - Gestione Magazzino - HSC"
+@  5, 17  SAY "Codice Articolo"
+@  5, 33  say  MAGAZ->COD
+@  7, 21  SAY "Descrizione"
+@  7, 33  GET  MAGAZ->DES
+@  9, 16  SAY "Unita' di misura"
+@  9, 33  GET  MAGAZ->UNM  PICTURE "XX"
+@ 11, 23  SAY "Quantita'"
+@ 11, 33  GET  MAGAZ->QUA
+@ 13, 17  SAY "Prezzo Unitario"
+@ 13, 33  GET  MAGAZ->PRU
+@ 15, 29  SAY "IVA"
+@ 15, 33  GET  MAGAZ->IVA
+@ 17, 18  SAY "Sconto"
+@ 17, 25  GET  MAGAZ->SC
+@ 17, 33  SAY "Prezzo"
+@ 17, 40  say  MAGAZ->PRE
+@ 17, 51  SAY "Totale"
+@ 17, 58  say  MAGAZ->TOT
+@  0,  0  TO 20, 79    DOUBLE
+@  1, 20  TO  3, 60    DOUBLE
+
